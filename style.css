@@ -1,0 +1,35 @@
+Etapa 2 – Estilização com CSS e Variáveis
+
+<head>
+  ...
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --cor-principal: #6E859F;
+      --cor-secundaria: #284260;
+      --cor-destaque: #C92BFC;
+    }
+
+    body {
+      font-family: 'Chakra Petch', sans-serif;
+      color: var(--cor-principal);
+      margin: 2rem;
+    }
+
+    h1, h2, h3 {
+      color: var(--cor-secundaria);
+      font-weight: 700;
+    }
+
+    a {
+      color: var(--cor-destaque);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--cor-principal);
+    }
+  </style>
+</head>
